@@ -4,5 +4,18 @@ This is a simple Django application with User and ActivityPeriod models, to popu
 
 The hosted application: http://ulure.pythonanywhere.com/users/
 
-To run this project install the dependenies from the requirements.txt file.
-and then python3 manage.py runserver to start the server.
+There are two models:
+
+1. User Model
+
+2. ActivityPeriod Model
+
+They are related as many to many field
+
+To run this project install the dependenies from the **requirements.txt** file.
+
+and then **python3 manage.py runserver** to start the server.
+
+Then go to **localhost:8000/users** to see the dummy data.
+
+To add data we need to add it from the admin panel.
